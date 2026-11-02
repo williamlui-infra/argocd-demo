@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/williamlui-infra/argocd-demo.git
     targetRevision: main
-    path: manifests/nginx
+    path: helm/my-nginx
   destination:
     server: https://kubernetes.default.svc
     namespace: default
