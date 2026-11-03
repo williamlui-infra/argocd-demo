@@ -1,4 +1,4 @@
 # Default values for my-nginx.
 image:
   repository: "137778986659.dkr.ecr.ap-southeast-1.amazonaws.com/dev-william-demo"
-  tag: "c2646f2cb5fb"
+  tag: "3d4ece5fde29"
