@@ -12,6 +12,7 @@ metadata:
     argocd-image-updater.argoproj.io/nginx.helm.image-name: image.repository
     argocd-image-updater.argoproj.io/nginx.helm.image-tag: image.tag
     argocd-image-updater.argoproj.io/nginx.update-strategy: newest-build
+    notifications.argoproj.io/subscribe.on-image-updated.slack: "demo-william-argocd-notification"
 spec:
   project: default
   source:
